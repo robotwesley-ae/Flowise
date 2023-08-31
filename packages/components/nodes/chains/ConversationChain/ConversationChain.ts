@@ -8,7 +8,7 @@ import { ConsoleCallbackHandler, CustomChainHandler } from '../../../src/handler
 import { flatten } from 'lodash'
 import { Document } from 'langchain/document'
 
-let systemMessage = `The following is a friendly conversation between a human and an AI. The AI is talkative and provides lots of specific details from its context. If the AI does not know the answer to a question, it truthfully says it does not know.`
+let systemMessage = ``
 
 class ConversationChain_Chains implements INode {
     label: string
